@@ -1,7 +1,7 @@
 jQuery(document).ready(function($) {
 
 
-    /*======= Skillset *=======*/
+    /*======= Skillset *=======
     
     $('.level-bar-inner').css('width', '0');
     
@@ -17,7 +17,7 @@ jQuery(document).ready(function($) {
             
         });
 
-    });
+    });*/
     
     /* Bootstrap Tooltip for Skillset */
     $('.level-label').tooltip();
@@ -60,11 +60,11 @@ jQuery(document).ready(function($) {
     );
     
     /* Github Calendar - https://github.com/IonicaBizau/github-calendar */
-    GitHubCalendar("#github-graph", "IonicaBizau");
+    //GitHubCalendar("#github-graph", "IonicaBizau");
     
     
     /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
-    GitHubActivity.feed({ username: "caseyscarborough", selector: "#ghfeed" });
+    //GitHubActivity.feed({ username: "caseyscarborough", selector: "#ghfeed" });
 
 
 });
