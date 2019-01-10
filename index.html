@@ -39,15 +39,15 @@
                 <ul class="social list-inline">
 			
 					
-                    <li class="list-inline-item"><a href="https://twitter.com/abdeldjalilfl"><i class="fab fa-twitter"></i></a></li>                   
-                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/abdeldjalilfl"><i class="fab fa-linkedin-in"></i></a></li>
-					<li class="list-inline-item"><a href="https://www.facebook.com/Abdeldjalilfl"><i class="fab fa-facebook-f"></i></a></li> 
-                    <li class="list-inline-item"><a href="https://github.com/abdeldjalilfl"><i class="fab fa-github-alt"></i></a></li> 
+                    <li class="list-inline-item"><a href="https://twitter.com/abdeldjalilfl" target="_blank"><i class="fab fa-twitter"></i></a></li>                   
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/abdeldjalilfl" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+					<li class="list-inline-item"><a href="https://www.facebook.com/Abdeldjalilfl" target="_blank"><i class="fab fa-facebook-f"></i></a></li> 
+                    <li class="list-inline-item"><a href="https://github.com/abdeldjalilfl" target="_blank"><i class="fab fa-github-alt"></i></a></li> 
 					
-					<li class="list-inline-item"><a href="http://www.behance.net/abdeldjalilfl"><i class="fab fa-behance"></i></a></li> 
-					<li class="list-inline-item"><a href="https://dribbble.com/abdeldjalilfl"><i class="fab fa-dribbble"></i></a></li> 
-					<li class="list-inline-item"><a href="https://instagram.com/upshot.dev/"><i class="fab fa-instagram"></i></a></li> 
-					<li class="list-inline-item"><a href="https://play.google.com/store/apps/dev?id=5933090668320116738"><i class="fab fa-google-play"></i></a></li> 
+					<li class="list-inline-item"><a href="http://www.behance.net/abdeldjalilfl" target="_blank"><i class="fab fa-behance"></i></a></li> 
+					<li class="list-inline-item"><a href="https://dribbble.com/abdeldjalilfl" target="_blank"><i class="fab fa-dribbble"></i></a></li> 
+					<li class="list-inline-item"><a href="https://instagram.com/upshot.dev/" target="_blank"><i class="fab fa-instagram"></i></a></li> 
+					<li class="list-inline-item"><a href="https://play.google.com/store/apps/dev?id=5933090668320116738" target="_blank"><i class="fab fa-google-play"></i></a></li> 
 					
                    
                 </ul> 
@@ -265,7 +265,47 @@
     <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
     <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
     
-    <script type="text/javascript" src="assets/js/main.js"></script>            
+    <script type="text/javascript" src="assets/js/main.js"></script> 
+
+
+<!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!-- Your send button code -->
+  <div class="fb-send" 
+    data-href="http://localhost/abdeldjalilfl.github.io/" 
+    data-layout="button_count">
+  </div>	
+
+	<!-- WhatsHelp.io widget
+<script type="text/javascript">
+    (function () {
+        var options = {
+			//whatsapp: "+213696774639", // WhatsApp number
+            //email: "abdeldjalil.fl@gmail.com", // Email
+			facebook: "100001801634379", // Facebook page ID
+            //call: "+213696774639", // Call phone number
+            call_to_action: "Message us", // Call to action
+            position: "right", // Position may be 'right' or 'left'
+			button_color: "#66cb8c", // Color of button
+			order: "email,whatsapp", // Order of buttons
+
+        };
+        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+ -->
+<!-- /WhatsHelp.io widget -->
 </body>
 </html> 
 
