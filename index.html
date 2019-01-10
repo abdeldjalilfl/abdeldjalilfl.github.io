@@ -266,36 +266,21 @@
     <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
     
     <script type="text/javascript" src="assets/js/main.js"></script> 
+	
 
-
-<!-- Load Facebook SDK for JavaScript -->
-  <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
-
-  <!-- Your send button code -->
-  <div class="fb-send" 
-    data-href="http://localhost/abdeldjalilfl.github.io/" 
-    data-layout="button_count">
-  </div>	
-
-	<!-- WhatsHelp.io widget
+	<!-- WhatsHelp.io widget-->
 <script type="text/javascript">
     (function () {
         var options = {
-			//whatsapp: "+213696774639", // WhatsApp number
+			whatsapp: "+213696774639", // WhatsApp number
+			//viber: "+213696774639", // Viber number
             //email: "abdeldjalil.fl@gmail.com", // Email
-			facebook: "100001801634379", // Facebook page ID
-            //call: "+213696774639", // Call phone number
+			//facebook: "100001801634379", // Facebook page ID
+            call: "+213696774639", // Call phone number
             call_to_action: "Message us", // Call to action
             position: "right", // Position may be 'right' or 'left'
 			button_color: "#66cb8c", // Color of button
-			order: "email,whatsapp", // Order of buttons
+			order: "viber,whatsapp", // Order of buttons
 
         };
         var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
@@ -304,7 +289,7 @@
         var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
     })();
 </script>
- -->
+
 <!-- /WhatsHelp.io widget -->
 </body>
 </html> 
