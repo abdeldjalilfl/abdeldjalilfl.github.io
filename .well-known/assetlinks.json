@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.upshotdev.tafqeet",
+    "sha256_cert_fingerprints":
+    ["3D:BC:E2:0A:A6:49:A0:A3:F0:2B:82:96:70:8B:81:58:37:57:81:A1:29:F4:FD:6E:3C:D4:F4:76:BE:59:3F:C6"]
+  }
+}]
