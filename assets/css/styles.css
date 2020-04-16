@@ -9,7 +9,7 @@
 body {
   font-family: 'Lato', arial, sans-serif;
   color: #434343;
-  background: #E5E5E5;
+  background: #FFFFFF;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -18,11 +18,11 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  color: #778492;
+  color: #414D5F;
 }
 
 a {
-  color: #3AAA64;
+  color: #414D5F;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -60,7 +60,7 @@ a:focus {
 }
 
 a.btn-cta-primary, .btn-cta-primary {
-  background: #54ba4e;
+  background: #54ba4e94;
   border: 1px solid #54ba4e;
   color: #fff;
   font-weight: 600;
@@ -118,7 +118,7 @@ a.dotted-link:hover {
 /* ======= Header ======= */
 .header {
   padding: 30px 0;
-  background: #f5f5f5;
+  background: #414D5F/*#f5f5f5;*/
   /* border-top: 10px solid #778492; */
 }
 
@@ -132,14 +132,14 @@ a.dotted-link:hover {
 }
 
 .header .profile-content .name {
-  color: #49515a;
+  color: #ffffff;
   font-size: 38px;
   margin-bottom: 5px;
   margin-top: 30px;
 }
 
 .header .profile-content .desc {
-  color: #778492;
+  color: #F8F8F9;
   font-family: "Lato", arial, sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -148,7 +148,7 @@ a.dotted-link:hover {
 }
 
 .header .profile-content .social a {
-  background: #b0b7bf;
+  background: #343a40;
   width: 36px;
   height: 36px;
   display: inline-block;
@@ -184,7 +184,7 @@ a.dotted-link:hover {
 }
 
 .section .section-inner {
-  background: #fff;
+  background: #f5f5f5;
   padding: 30px;
   border-radius: 8px;
 }
@@ -192,7 +192,7 @@ a.dotted-link:hover {
 .section .heading {
   margin-top: 0;
   margin-bottom: 30px;
-  color: #545e69;
+  color: #414D5F;
   font-size: 24px;
 }
 
@@ -328,7 +328,7 @@ a.dotted-link:hover {
 }
 
 .projects .item .title a {
-  color: #778492;
+  color: #414D5F;
 }
 
 .projects .item .title a:hover {
@@ -446,7 +446,7 @@ a.dotted-link:hover {
 
 .skills .skillset .level-bar-inner {
   height: 15px;
-  background: #66cb8c;
+  background: #414D5F;
 }
 
 .skills .svg-inline--fa {
@@ -511,15 +511,15 @@ a.dotted-link:hover {
 }
 
 .education .item .university {
-  font-family: "Lato", arial, sans-serif;
-  font-size: 13px;
-  color: #999;
-  font-weight: 600;
-  padding-left: 25px;
+  /* font-family: "Lato", arial, sans-serif;
+  font-size: 13px; */
+  color:#434343;
+  /* font-weight: 600;
+  padding-left: 25px; */
 }
 
 .education .item .university .year {
-  color: #b0b7bf;
+  color: #434343;
   font-weight: 500;
 }
 
@@ -529,11 +529,11 @@ a.dotted-link:hover {
 }
 
 .languages .item .title {
-  color: #778492;
+  color: #414D5F;
 }
 
 .languages .item .level {
-  color: #999;
+  color: #414D5F;
 }
 
 .languages .item:last-child {
