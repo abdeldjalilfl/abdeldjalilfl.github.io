@@ -1,0 +1,61 @@
+{
+    "projects": [
+        {
+            "link": "https://play.google.com/store/apps/details?id=com.upshotdev.tafqeet",
+            "title": "Tafqeet App",
+            "summary": "Android application helps you in fill any bank check, postal check (Algeria Post, \u2026) or an invoice quickly and easily.",
+            "image": "",
+            "ul": [
+                {
+                    "li": "Convert a number (an amount) written in numbers into words (letters)."
+                },
+                {
+                    "li": "Accurate and reliable conversion into three languages: English, French and Arabic."
+                },
+                {
+                    "li": "The monetary unit used is the Algerian dinar."
+                }
+            ],
+            "git": "",
+            "playstore": "https://play.google.com/store/apps/details?id=com.upshotdev.tafqeet"
+        },
+        {
+            "link": "https://play.google.com/store/apps/details?id=com.upshotdev.kids.kids123",
+            "title": "Abc kids",
+            "summary": "ABC Kids helps children understand the basics of English.",
+            "image": "",
+            "ul": [
+                {
+                    "li": "Alphabet, numbers and paint."
+                },
+                {
+                    "li": "Numbers spalling."
+                },
+                {
+                    "li": "Read number and alphabet (voice)."
+                }
+            ],
+            "git": "",
+            "playstore": "https://play.google.com/store/apps/details?id=com.upshotdev.kids.kids123"
+        },
+        {
+            "link": "https://drive.google.com/open?id=1rQvx2cmNqWgxx_YOQxXciOREpdFubLZa",
+            "title": "Food delivery",
+            "summary": "Order online Food, Drinks and everything you need near you",
+            "image": "",
+            "ul": [
+                {
+                    "li": "Muli store support."
+                },
+                {
+                    "li": "MVVM architecture ((Android Jetpack : data-binding, paging, viewModel...)."
+                },
+                {
+                    "li": "Modular Programming (Repository, Local Login ,Register, Maps... )."
+                }
+            ],
+            "git": "",
+            "playstore": ""
+        }
+    ]
+}
